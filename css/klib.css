@@ -1,3 +1,5 @@
-.text-primary {
-  color: #0275d8 !important;
+
+
+.section-background {
+  background-image: linear-gradient(rgb(255, 255, 255) 0px, rgb(246, 246, 246) 450px) !important;
 }
