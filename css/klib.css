@@ -39,3 +39,9 @@
   margin-bottom: .375em;
   color: #666;
 }
+
+.feature-icon-div {
+  width: 64px;
+  height: 64px;
+  display: flex;
+}
