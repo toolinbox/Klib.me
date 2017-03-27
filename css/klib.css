@@ -3,3 +3,39 @@
 .section-background {
   background-image: linear-gradient(rgb(255, 255, 255) 0px, rgb(246, 246, 246) 450px) !important;
 }
+
+.text-head, .text-title {
+  font-size: 64px;
+  line-height: 1.0625;
+  font-weight: 200;
+  letter-spacing: -.02em;
+}
+
+.text-head {
+  font-size: 96px;
+}
+
+.text-title {
+  font-size: 64px;
+}
+
+.text-content, .text-quote {
+  font-size: 24px;
+  line-height: 1.33349;
+  font-weight: 300;
+  letter-spacing: 0em;
+}
+
+.text-quote {
+  font-style: italic;
+}
+
+.text-description {
+  font-size: 16px;
+  line-height: 1.33343;
+  font-weight: 300;
+  letter-spacing: 0em;
+  margin-top: 0.2em;
+  margin-bottom: .375em;
+  color: #666;
+}

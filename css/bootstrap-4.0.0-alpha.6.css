@@ -337,7 +337,7 @@ html {
 }
 
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /*font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;*/
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -398,12 +398,12 @@ blockquote {
 }
 
 a {
-  color: #0275d8;
+  color: #0070c9;
   text-decoration: none;
 }
 
 a:focus, a:hover {
-  color: #014c8c;
+  color: #0070c9;
   text-decoration: underline;
 }
 
