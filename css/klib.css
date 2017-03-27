@@ -45,3 +45,8 @@
   height: 64px;
   display: flex;
 }
+
+.mac-app-store {
+  width: auto;
+  height: 51;
+}
