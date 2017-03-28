@@ -75,11 +75,39 @@
       width: auto;
       height: 51;
     }
+
+    @media (max-width: 767px) {
+      .hidden-xs {
+        display: none !important;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .hidden-not-xs {
+        display: none !important;
+      }
+    }
   </style>
 </head>
 
 <body>
-  <div class="text-center d-flex h-100 align-items-center section-background">
+  <div class="text-center d-flex h-100 align-items-center section-background hidden-not-xs">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-6"><img class="center-block img-fluid d-block my-3" src="images/klib/header2.png"></div>
+            <div class="col-md-6">
+              <h1 class="text-head text-center">Klib</h1>
+              <p class="text-content text-center">The new way to manage highlights for Kindle.</p>
+              <a href="https://itunes.apple.com/app/id1196268448?mt=12&amp;at=1000lv4R&amp;ct=klib_me" target="_blank"> <img class="center-block img-fluid d-block my-4 mac-app-store mx-auto" src="images/mac-app-store.svg" alt="Download on the Mac App Store"> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center d-flex h-100 align-items-center section-background hidden-xs">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -89,7 +117,7 @@
               <p class="text-content text-left">The new way to manage highlights &amp; notes for Kindle.</p>
               <a href="https://itunes.apple.com/app/id1196268448?mt=12&amp;at=1000lv4R&amp;ct=klib_me" target="_blank"><img class="center-block img-fluid d-block float-left my-5 mac-app-store" src="images/mac-app-store.svg" alt="Download on the Mac App Store"></a>
             </div>
-            <div class="col-md-6 my-4"><img class="center-block img-fluid d-block" src="http://i.imgur.com/1ZFYKqs.png"></div>
+            <div class="col-md-6 my-4"><img class="center-block img-fluid d-block" src="images/klib/header2.png"></div>
           </div>
         </div>
       </div>
