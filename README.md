@@ -1,10 +1,9 @@
-# Klib - Kindle Highlights & Notes Manager
 
 [![](https://i.imgur.com/OJVLKwE.png)](https://itunes.apple.com/app/id1196268448?ls=1&mt=12&at=1000lv4R&ct=klib_home)
 
-**Klib** (**K**indle **lib**rary) is a new way to manage Kindle highlights and notes, to help you gain more from reading.
+**Klib** (**K**indle **lib**rary) is a new way to manage Kindle highlights and notes. As a great Kindle clippings manger, Klib could help you gain more from reading.
 
-![](https://i.imgur.com/oJo2qLX.jpg)
+![](https://i.imgur.com/qBpc4Xb.png)
 
 # 1. Klib: Live For Notes
 
@@ -38,13 +37,23 @@ You can also press the `Space` bar in Klib to quickly preview the selected note.
 
 When reviewing books we sometimes want to view the table of contents, customer reviews, or other books written by same author. In this case, **Klib can open the book on the Amazon site with one click.**
 
-![](https://i.imgur.com/YzgRaeR.gif)
+[Operation Demo](https://i.imgur.com/YzgRaeR.gif)
 
 ## Free to Edit
 
 In Klib you can freely edit the book title, author, highlights, notes, etc.
 
 ![](https://i.imgur.com/s9TN5no.jpg)
+
+### Mark as Chapter
+
+Chapters are very important when review notes of a book. But unfortunately Kindle didn't export these information. How to do? Here is a way to walk around it.
+
+- Add highlight for chapters' text.
+- After imported into Klib, select all the highlights for chapters, mark them as chapters.
+- When copy a book's highlights and notes, Klib will add 2nd level titles for chapters.
+
+![](https://i.imgur.com/ycJDZqO.gif)
 
 ## Search Anything
 
@@ -63,7 +72,7 @@ For example, if I want to search a note with the text `value` which I read in `2
 
 # 2. Klib: Start From Importing
 
-![](https://i.imgur.com/frR2XKK.jpg)
+![](https://i.imgur.com/XIuPBsl.png)
 
 ## Import From Kindle
 
@@ -101,13 +110,39 @@ Disadvantages of Importing this way:
 	- Tip: You need to subscribe to *Klib Extensions* to import from Amazon.
 - Later, **Klib will import automatically from Amazon on startup.**
 
+## Import From iBooks
+
+If you prefer iBooks, you can also import iBooks highlights and notes into Klib.
+
+![](https://i.imgur.com/LLXZstS.jpg)
+
+**How to import:**
+
+- Click the menu item `File > Import from Amazon…` in Klib.
+- You need to authorize when importing for the first time.
+	- Tip: You need to subscribe to *Klib Extensions* to import from Amazon.
+- Later, **Klib will import automatically from Amazon on startup.**
+
+## Import via macOS Services
+
+If you want to highlight and record a paragraph during read, just select them and add to Klib via macOS Services.
+
+[Operation Demo](https://i.imgur.com/HnZiqFz.gif)
+
+**Tips:**
+
+- You can choose which book to save in Klib's Preferences.
+- You can create a new book to save the highlights.
+- You can use `Command + K` shortcut to quickly add.
+	- You can modify the shortcut in `macOS Preferences > Keyboard > Shortcuts > Services > Add to Klib`.
+
 # 3. Klib: Free To Export
 
 Sharing knowledge is a good thing.
 
 ## Export To Evernote
 
-After exporting to Evernote, you can easily review your notes via Evernote clients on iPhone or any other device.
+Klib could automatically export Kindle highlights and notes to Evernote. And then you can easily review your notes via Evernote clients on iPhone or any other device.
 
 **How to export:**
 
@@ -121,6 +156,7 @@ After exporting to Evernote, you can easily review your notes via Evernote clien
 
 - A new `Klib` notebook will be created in Evernote.
 - Klib also creates the tags `Klib`, `Book`, `Read Book` for content exported into Evernote.
+- No matter how you rename or move Klib notebook in Evernote, Klib could exactly export to the same notebook.
 - Klib will override notes in Evernote whenever you modify books or notes.
 	- Tips: For this reason the notes in Evernote are read only.
 
@@ -131,6 +167,14 @@ After copying notes as Markdown, you can easily share them on your blog or anywh
 ![](https://i.imgur.com/cG2tJt7.jpg)
 
 In fact, this is why I developed Klib. After reading a book I like to summarise it in my blog. And the highlights and notes are important parts of the summary. So, I made Klib to copy them as Markdown.
+
+## Share
+
+You can easily share your read notes via Twitter, Facebook and other Apps in macOS share services.
+
+![](http://i.imgur.com/QKROOLx.jpg)
+
+**Tips:** Could active services in `System Preferences > Extensions`.
 
 ## Export Database
 
@@ -149,17 +193,17 @@ You can easily export Klib’s entire database, and then share it with others, o
 
 It's not enough that the app just works, it needs to work well.
 
+## Klib Labs
+
+New features will be observed in the lab for a while. If you do not like, the new features may be adjusted or even removed. And they may be charged if passed the observation.
+
+![](https://i.imgur.com/O7DwWm6.jpg)
+
 ## Native Interaction
 
 Klib works like the built-in app *Reminders*, which is great for notes management.
 
 So, **now you're a Klib expert.**
-
-## Fullscreen is Cool
-
-It's hard to describe the feeling, but you will enjoy reviewing notes in Klib with fullscreen. 
-
-Press `Command + Ctrl + F` to have a try.
 
 ## Efficiency with Shortcuts
 
@@ -196,7 +240,6 @@ Please send any suggestions you may have, I will give them seriously considerati
 Klib will keep on improving, e.g. some planned improvements are:
 
 - Organizing books using tags.
-- Supporting manually added books and notes.
 - Improving the import experience for reviewing notes.
 - …
 
@@ -204,13 +247,16 @@ Klib will keep on improving, e.g. some planned improvements are:
 
 ## Press Kit
 
-Please introduce Klib to any book lovers you know. You will help them to get more out of reading.
+Klib is a great Kindle mate for macOS. Please introduce Klib to any book lovers you know. You will help them to get more out of reading.
 
 [Download Press Kit](https://s.toolinbox.net/Klib/PressKit.zip)
 
 ## Thanks
 
-Klib's Logo was designed by [Allen](https://dribbble.com/openallen), thanks.
+Thanks for all the volunteers' help.
+
+- Klib's Logo was designed by [Allen](https://dribbble.com/openallen)
+- [Huanbo Tu](https://www.linkedin.com/in/huanbo-tu-10586447/) helped to translate Klib to German.
 
 ## Download Klib
 
@@ -226,5 +272,3 @@ If you had any problem using Klib or have any suggestions for improvements, plea
 - [Join Telegram group](https://t.me/iToolinbox)
 
 I look forward to hearing from you!
-
-
