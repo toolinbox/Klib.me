@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Klib Pro</title>
+
+  <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+
+  <style>
+    .container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /*align-items: flex-start;*/
+      /*margin-top: 250px;*/
+    }
+  </style>
+</head>
+  <div class="container">
+    <a href="#!" id="buy" class="paddle_button" data-product="645774">Buy Klib Pro</a>    
+  </div>
+
+  <script>
+    Paddle.Setup({ vendor: 12866 });
+
+    function autoClick() { document.getElementById("buy").click(); }
+    window.onload = function(){ autoClick(); }
+    setTimeout(() => { autoClick(); }, 2000)
+  </script>
+</body>
+
+</html>
